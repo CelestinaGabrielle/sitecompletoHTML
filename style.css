@@ -1,0 +1,86 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(235, 40, 5);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(243, 181, 219);
+    padding: 10px 20px 0px;
+    font-family: Arial, sans-serif; 
+    a {color: #5c5050; font-size: 20px}
+    h1 {color: #020000; text-align: center;}
+}
+.header {
+    background-color: rgb(170, 214, 243);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    h2 {text-align: center;}
+}
+.footer {
+    background-color: rgb(202, 228, 238);
+    min-height: 150px;  
+    padding: bottom;
+    display: inline-flex;
+    strong {font-size: 20px;}
+    p {font-size: 10x;  text-align: center;}
+
+}       
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #080000;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #ecb2b2;
+}
+form {
+    max-width: 150x;
+    margin: 20px auto;
+}
+label, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+button {
+    background-color: #268bc5;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #ec94c5;
+}
